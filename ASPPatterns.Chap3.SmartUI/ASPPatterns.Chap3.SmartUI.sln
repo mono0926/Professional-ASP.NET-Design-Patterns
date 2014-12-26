@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.SmartUI.Web", "ASPPatterns.Chap3.SmartUI.Web\ASPPatterns.Chap3.SmartUI.Web.csproj", "{0E1D67A3-6532-4AF6-9740-CA94D6CD178D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E1D67A3-6532-4AF6-9740-CA94D6CD178D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1D67A3-6532-4AF6-9740-CA94D6CD178D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1D67A3-6532-4AF6-9740-CA94D6CD178D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1D67A3-6532-4AF6-9740-CA94D6CD178D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75E0A50D-090D-48C6-9A81-2AE702C7C197}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASPPatterns.Chap7.Library.Repository.EF</RootNamespace>
+    <AssemblyName>ASPPatterns.Chap7.Library.Repository.EF</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataContextStorage\DataContextStorageFactory.cs" />
+    <Compile Include="DataContextStorage\HttpDataContextStorageContainer.cs" />
+    <Compile Include="DataContextStorage\IDataContextStorageContainer.cs" />
+    <Compile Include="DataContextStorage\ThreadDataContextStorageContainer.cs" />
+    <Compile Include="QueryTranslators\BookQueryTranslator.cs" />
+    <Compile Include="QueryTranslators\BookTitleQueryTranslator.cs" />
+    <Compile Include="QueryTranslators\MemberQueryTranslator.cs" />
+    <Compile Include="QueryTranslators\QueryTranslator.cs" />
+    <Compile Include="Repositories\BookTitleRepository.cs" />
+    <Compile Include="DataContextFactory.cs" />
+    <Compile Include="EFUnitOfWork.cs" />
+    <Compile Include="Repositories\BookRepository.cs" />
+    <Compile Include="LibraryDataContext.cs" />
+    <Compile Include="Repositories\MemberRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASPPatterns.Chap7.Library.Infrastructure\ASPPatterns.Chap7.Library.Infrastructure.csproj">
+      <Project>{5C97F267-90E3-4970-B639-5C34E1BFE25D}</Project>
+      <Name>ASPPatterns.Chap7.Library.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASPPatterns.Chap7.Library.Model\ASPPatterns.Chap7.Library.Model.csproj">
+      <Project>{EFC1FA98-BAB6-45F6-B8E6-0FB3D0A8422B}</Project>
+      <Name>ASPPatterns.Chap7.Library.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Library.edmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

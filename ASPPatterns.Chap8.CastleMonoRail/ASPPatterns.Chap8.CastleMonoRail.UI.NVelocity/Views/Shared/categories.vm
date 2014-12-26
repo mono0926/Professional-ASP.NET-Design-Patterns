@@ -1,0 +1,7 @@
+﻿<ul>
+  #foreach($category in $categories)
+
+  <li>$UrlHelper.Link($category.Name, "%{controller='Product', action='CategoryProducts', querystring='CategoryId=$category.Id'}")</li>  
+  
+#end
+</ul>

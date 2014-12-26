@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="Agathas.Storefront.Model.Customers"
+        assembly="Agathas.Storefront.Model">
+
+  <class name="DeliveryAddress" table="CustomerDeliveryAddresses" lazy="false" >
+
+    <id  name="Id" column="DeliveryId" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+    <property name="AddressLine1">
+      <column name="AddressLine1" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+    <property name="AddressLine2">
+      <column name="AddressLine2" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+    <property name="City">
+      <column name="City" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+    <property name="State">
+      <column name="State" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+    <property name="ZipCode">
+      <column name="ZipCode" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+    <property name="Country">
+      <column name="Country" sql-type="nvarchar(50)" not-null="true" />
+    </property>
+
+    <many-to-one name="Customer"
+                     class="Customer"
+                     column="CustomerId"
+                     not-null="true"
+                     lazy="false" />
+
+  </class>
+</hibernate-mapping>
+

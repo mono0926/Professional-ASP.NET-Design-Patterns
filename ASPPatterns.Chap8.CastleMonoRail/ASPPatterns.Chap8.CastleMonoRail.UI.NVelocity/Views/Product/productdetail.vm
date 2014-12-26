@@ -1,0 +1,10 @@
+﻿
+
+<h2>$product.Name</h2>
+<p>
+  pay: $product.Price
+</p>
+<p>
+  $product.Description
+</p>
+ 

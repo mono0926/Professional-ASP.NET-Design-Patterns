@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Shop" Class="ShopDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Projects\ASPPatterns.Chap3.Layered\ASPPatterns.Chap3.Layered.WebUI\App_Data\Shop.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="ASPPatterns.Chap3.Layered.Repository.Properties.Settings" SettingsPropertyName="ShopConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Products" Member="Products">
+    <Type Name="Product">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RRP" Type="System.Decimal" DbType="SmallMoney NOT NULL" CanBeNull="false" />
+      <Column Name="SellingPrice" Type="System.Decimal" DbType="SmallMoney NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

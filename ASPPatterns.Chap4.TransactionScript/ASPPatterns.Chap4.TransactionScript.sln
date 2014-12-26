@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap4.TransactionScript.UI.Web", "ASPPatterns.Chap4.TransactionScript.UI.Web\ASPPatterns.Chap4.TransactionScript.UI.Web.csproj", "{0B504702-E9BF-4E1C-8E48-11179985ADDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap4.TransactionScript.BLL", "ASPPatterns.Chap4.TransactionScript.BLL\ASPPatterns.Chap4.TransactionScript.BLL.csproj", "{5245B877-BB3B-4ECB-8312-4911E18FD743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B504702-E9BF-4E1C-8E48-11179985ADDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B504702-E9BF-4E1C-8E48-11179985ADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B504702-E9BF-4E1C-8E48-11179985ADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B504702-E9BF-4E1C-8E48-11179985ADDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5245B877-BB3B-4ECB-8312-4911E18FD743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5245B877-BB3B-4ECB-8312-4911E18FD743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5245B877-BB3B-4ECB-8312-4911E18FD743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5245B877-BB3B-4ECB-8312-4911E18FD743}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap4.ActiveRecord.Model", "ASPPatterns.Chap4.ActiveRecord.Model\ASPPatterns.Chap4.ActiveRecord.Model.csproj", "{63C30ABF-7F49-4AFB-9B94-3AA23E5A12FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{C87E2185-8BBF-4D8E-834C-C38816831366}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\Antlr3.Runtime.dll = Dependencies\Antlr3.Runtime.dll
+		Dependencies\Castle.ActiveRecord.dll = Dependencies\Castle.ActiveRecord.dll
+		Dependencies\Castle.ActiveRecord.Linq.dll = Dependencies\Castle.ActiveRecord.Linq.dll
+		Dependencies\Castle.Components.Validator.dll = Dependencies\Castle.Components.Validator.dll
+		Dependencies\Castle.Core.dll = Dependencies\Castle.Core.dll
+		Dependencies\Castle.DynamicProxy2.dll = Dependencies\Castle.DynamicProxy2.dll
+		Dependencies\Iesi.Collections.dll = Dependencies\Iesi.Collections.dll
+		Dependencies\log4net.dll = Dependencies\log4net.dll
+		Dependencies\Lucene.Net.dll = Dependencies\Lucene.Net.dll
+		Dependencies\NHibernate.ByteCode.Castle.dll = Dependencies\NHibernate.ByteCode.Castle.dll
+		Dependencies\NHibernate.dll = Dependencies\NHibernate.dll
+		Dependencies\NHibernate.Linq.dll = Dependencies\NHibernate.Linq.dll
+		Dependencies\NHibernate.Search.dll = Dependencies\NHibernate.Search.dll
+		Dependencies\NLog.dll = Dependencies\NLog.dll
+		Dependencies\nunit.framework.dll = Dependencies\nunit.framework.dll
+		Dependencies\System.Data.SQLite.DLL = Dependencies\System.Data.SQLite.DLL
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap4.ActiveRecord.UI.MVC", "ASPPatterns.Chap4.ActiveRecord.UI.MVC\ASPPatterns.Chap4.ActiveRecord.UI.MVC.csproj", "{0720798B-38D8-48AD-BE74-9D66207B623E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63C30ABF-7F49-4AFB-9B94-3AA23E5A12FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C30ABF-7F49-4AFB-9B94-3AA23E5A12FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C30ABF-7F49-4AFB-9B94-3AA23E5A12FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C30ABF-7F49-4AFB-9B94-3AA23E5A12FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0720798B-38D8-48AD-BE74-9D66207B623E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0720798B-38D8-48AD-BE74-9D66207B623E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0720798B-38D8-48AD-BE74-9D66207B623E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0720798B-38D8-48AD-BE74-9D66207B623E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.AutoMapper.Model", "ASPPatterns.Chap8.AutoMapper.Model\ASPPatterns.Chap8.AutoMapper.Model.csproj", "{296FCDC3-003C-4164-904E-54430EEA62DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.AutoMapper.StubRepository", "ASPPatterns.Chap8.AutoMapper.StubRepository\ASPPatterns.Chap8.AutoMapper.StubRepository.csproj", "{925493FB-082A-43CA-BD30-11E9B2891754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.AutoMapper.AppService", "ASPPatterns.Chap8.AutoMapper.AppService\ASPPatterns.Chap8.AutoMapper.AppService.csproj", "{DEE98B21-1BE3-4F85-83D5-326D4C73663E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{5C61B193-C886-4C78-A1D7-EE43F976285C}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\AutoMapper.dll = Lib\AutoMapper.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.AutoMapper.UI.Web", "ASPPatterns.Chap8.AutoMapper.UI.Web\ASPPatterns.Chap8.AutoMapper.UI.Web.csproj", "{1A54BCD2-43E7-4CC4-A7E3-6BB6EA3BFBC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{296FCDC3-003C-4164-904E-54430EEA62DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296FCDC3-003C-4164-904E-54430EEA62DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296FCDC3-003C-4164-904E-54430EEA62DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296FCDC3-003C-4164-904E-54430EEA62DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925493FB-082A-43CA-BD30-11E9B2891754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925493FB-082A-43CA-BD30-11E9B2891754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925493FB-082A-43CA-BD30-11E9B2891754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925493FB-082A-43CA-BD30-11E9B2891754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE98B21-1BE3-4F85-83D5-326D4C73663E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE98B21-1BE3-4F85-83D5-326D4C73663E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE98B21-1BE3-4F85-83D5-326D4C73663E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE98B21-1BE3-4F85-83D5-326D4C73663E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A54BCD2-43E7-4CC4-A7E3-6BB6EA3BFBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A54BCD2-43E7-4CC4-A7E3-6BB6EA3BFBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A54BCD2-43E7-4CC4-A7E3-6BB6EA3BFBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A54BCD2-43E7-4CC4-A7E3-6BB6EA3BFBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

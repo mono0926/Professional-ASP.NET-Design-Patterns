@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agathas.Storefront.Controllers.Controllers.ProductCatalogBaseController">
+    <Position X="4.25" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProductCatalogBaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Controllers.Controllers.ProductController" Collapsed="true">
+    <Position X="1" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACABAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAACAw=</HashCode>
+      <FileName>Controllers\ProductController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Controllers.Controllers.HomeController" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Controllers.Controllers.BaseController">
+    <Position X="4.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\BaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agathas.Storefront.Controllers.Controllers.BasketController">
+    <Position X="4.25" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIAAAAEQAAAAAIAAAAAAAAAQAEAgAAAAAACAA=</HashCode>
+      <FileName>Controllers\BasketController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

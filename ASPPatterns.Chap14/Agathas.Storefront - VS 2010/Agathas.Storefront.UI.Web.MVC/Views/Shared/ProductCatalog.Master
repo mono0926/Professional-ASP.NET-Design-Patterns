@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="Site.Master" 
+           Inherits="System.Web.Mvc.ViewMasterPage<BaseProductCatalogPageView>" %>
+<%@ Import Namespace="Agathas.Storefront.Controllers.ViewModels.ProductCatalog" %>
+
+<asp:Content ID="TitleContent" ContentPlaceHolderID="TitleContent" runat="server">
+    <asp:ContentPlaceHolder ID="TitleContent" runat="server">            
+    </asp:ContentPlaceHolder>   
+</asp:Content> 
+ 
+ 
+<asp:Content ID="MainContent" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">            
+
+    </asp:ContentPlaceHolder>   
+</asp:Content> 
+
+<asp:Content ID="headerBasketSummary" 
+             ContentPlaceHolderID="headerBasketSummary"  
+             runat="server">
+    <% Html.RenderPartial("~/Views/Shared/BasketSummary.ascx", 
+                           ((BaseProductCatalogPageView)Model).BasketSummary); %>  
+</asp:Content>
+
+
+<asp:Content ID="MenuContent" ContentPlaceHolderID="MenuContent" runat="server">
+    <asp:ContentPlaceHolder ID="MenuContent" runat="server">            
+        <% Html.RenderPartial("~/Views/Shared/Categories.ascx",
+                            ((BaseProductCatalogPageView)Model).Categories); %>  
+    </asp:ContentPlaceHolder>       
+</asp:Content>

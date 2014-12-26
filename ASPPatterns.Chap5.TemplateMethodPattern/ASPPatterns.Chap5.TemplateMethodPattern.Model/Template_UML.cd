@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASPPatterns.Chap5.TemplateMethodPattern.Model.ReturnProcessTemplate">
+    <Position X="4.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>ReturnProcessTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.TemplateMethodPattern.Model.FaultyReturnProcess">
+    <Position X="3.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>FaultyReturnProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.TemplateMethodPattern.Model.NoQuibblesReturnProcess">
+    <Position X="6" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>NoQuibblesReturnProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.TemplateMethodPattern.Model.ReturnProcessFactory">
+    <Position X="0.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReturnProcessFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.TemplateMethodPattern.Model.ReturnOrder">
+    <Position X="0.5" Y="2.25" Width="2" />
+    <AssociationLine Name="Action" Type="ASPPatterns.Chap5.TemplateMethodPattern.Model.ReturnAction">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.315" Y="0.308" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>GAAAAAAAAAAAAAAIAAEAAAAAAAAEAAAAAAgAAAAAAAQ=</HashCode>
+      <FileName>ReturnOrder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Action" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.TemplateMethodPattern.Model.ReturnService">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReturnService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ASPPatterns.Chap5.TemplateMethodPattern.Model.ReturnAction">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ReturnAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

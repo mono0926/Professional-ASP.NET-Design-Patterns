@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ASPPatterns.Chap9.PredictiveFetch.UI.Web.BlogService" CodeBehind="BlogService.svc.cs" %>

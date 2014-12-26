@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.ProxyPattern.Model", "ASPPatterns.Chap7.ProxyPattern.Model\ASPPatterns.Chap7.ProxyPattern.Model.csproj", "{FA2F039F-BB25-44BE-8E04-CD05BC3AA535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.ProxyPattern.Repository", "ASPPatterns.Chap7.ProxyPattern.Repository\ASPPatterns.Chap7.ProxyPattern.Repository.csproj", "{9C6FD811-4255-4DF4-86D2-F1E0DE7015FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.ProxyPattern.Test", "ASPPatterns.Chap7.ProxyPattern.Test\ASPPatterns.Chap7.ProxyPattern.Test.csproj", "{A0082D6B-B3F5-456C-AFD4-6022D3B8DEF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{7EAFD97D-33E9-4BCE-BAA3-742CE16FE8CF}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Moq.dll = Lib\Moq.dll
+		Lib\nunit.framework.dll = Lib\nunit.framework.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA2F039F-BB25-44BE-8E04-CD05BC3AA535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2F039F-BB25-44BE-8E04-CD05BC3AA535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2F039F-BB25-44BE-8E04-CD05BC3AA535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2F039F-BB25-44BE-8E04-CD05BC3AA535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6FD811-4255-4DF4-86D2-F1E0DE7015FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6FD811-4255-4DF4-86D2-F1E0DE7015FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6FD811-4255-4DF4-86D2-F1E0DE7015FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6FD811-4255-4DF4-86D2-F1E0DE7015FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0082D6B-B3F5-456C-AFD4-6022D3B8DEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0082D6B-B3F5-456C-AFD4-6022D3B8DEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0082D6B-B3F5-456C-AFD4-6022D3B8DEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0082D6B-B3F5-456C-AFD4-6022D3B8DEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

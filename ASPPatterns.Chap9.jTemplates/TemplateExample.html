@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>	
+    <script type="text/javascript" src="jquery-1.3.2.js"></script>
+    <script type="text/javascript" src="jquery-jtemplates.js"></script>	
+	
+	<script type="text/javascript">
+		// data - JSON array
+	    $(document).ready(function() {
+	        var data = {	            
+	            users: [
+					{ Id: 1, Name: 'Scott', Age: 32 },
+					{ Id: 2, Name: 'Lynsey', Age: 31 },
+					{ Id: 3, Name: 'Agatha', Age: 3 },
+					{ Id: 4, Name: 'Kojack', Age: 2 }
+				]
+	        };
+	        
+	        // attach the template to the out put div	        
+	        $("#userList").setTemplate($("#userListTemplate").html());	        	        
+	        // process the template by feeding in the JSON array	        
+	        $("#userList").processTemplate(data);	        
+	    });	
+	</script>
+    <title></title> 
+</head>
+<body>    
+	<!-- template -->
+	<script type="text/html" id="userListTemplate">  
+	   <table>	 	       
+	       {#foreach $T.users as record}		   	
+	       <tr>
+                <td>{$T.record.Name}</td>
+                <td>{$T.record.Age}</td>
+                <td><a href="Detail.aspx?Id={$T.record.Id}">view details</a></td>
+           </tr>
+           {#/for}       
+       </table>
+	</script>  
+	
+    <!-- results output div -->
+	<div id="userList"></div>	
+</body>
+</html>

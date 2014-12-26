@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Model", "ASPPatterns.Chap3.Layered.Model\ASPPatterns.Chap3.Layered.Model.csproj", "{CCECB5C5-DFCC-4DF0-914D-83B3877DFC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Repository", "ASPPatterns.Chap3.Layered.Repository\ASPPatterns.Chap3.Layered.Repository.csproj", "{975807EE-4DF3-480D-8DBE-2D8F29264A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.WebUI", "ASPPatterns.Chap3.Layered.WebUI\ASPPatterns.Chap3.Layered.WebUI.csproj", "{BDD54F11-10F4-49AC-81D1-D9BEB45BE26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Presentation", "ASPPatterns.Chap3.Layered.Presentation\ASPPatterns.Chap3.Layered.Presentation.csproj", "{DD2C7FDA-105D-467F-B539-233CC30BDB47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{8FB21BD3-FA58-4168-9F1D-658F355DA77F}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Machine.Specifications.dll = Lib\Machine.Specifications.dll
+		Lib\Machine.Specifications.NUnit.dll = Lib\Machine.Specifications.NUnit.dll
+		Lib\nunit.framework.dll = Lib\nunit.framework.dll
+		Lib\StructureMap.dll = Lib\StructureMap.dll
+		Lib\TestDriven.Framework.dll = Lib\TestDriven.Framework.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Service", "ASPPatterns.Chap3.Layered.Service\ASPPatterns.Chap3.Layered.Service.csproj", "{F5EFAA47-D858-453B-A405-DE624BF7DD01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Data Access Layer", "1. Data Access Layer", "{55733061-81E2-46C1-8B40-2F63470C1EA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Logic Layer", "2. Business Logic Layer", "{CE8D1092-0671-4CEB-B62F-C653E86C8D87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Layer", "3. Service Layer", "{D76E645C-43A9-44E2-8BB4-7C5183B3E8FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation Layer", "4. Presentation Layer", "{DE349CD8-5A02-44EA-BB49-EF26493DD6B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. User Experience Layer", "5. User Experience Layer", "{46332137-67BE-4D00-9D52-F9BBF919AF1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{436B372B-EA0D-42F5-AFFA-2F02E273A047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap3.Layered.Specifications", "ASPPatterns.Chap3.Layered.Specifications\ASPPatterns.Chap3.Layered.Specifications.csproj", "{5FB90082-5435-4C43-8EF6-811888F89C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCECB5C5-DFCC-4DF0-914D-83B3877DFC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCECB5C5-DFCC-4DF0-914D-83B3877DFC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCECB5C5-DFCC-4DF0-914D-83B3877DFC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCECB5C5-DFCC-4DF0-914D-83B3877DFC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975807EE-4DF3-480D-8DBE-2D8F29264A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975807EE-4DF3-480D-8DBE-2D8F29264A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975807EE-4DF3-480D-8DBE-2D8F29264A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975807EE-4DF3-480D-8DBE-2D8F29264A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD54F11-10F4-49AC-81D1-D9BEB45BE26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD54F11-10F4-49AC-81D1-D9BEB45BE26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD54F11-10F4-49AC-81D1-D9BEB45BE26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD54F11-10F4-49AC-81D1-D9BEB45BE26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2C7FDA-105D-467F-B539-233CC30BDB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2C7FDA-105D-467F-B539-233CC30BDB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2C7FDA-105D-467F-B539-233CC30BDB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2C7FDA-105D-467F-B539-233CC30BDB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5EFAA47-D858-453B-A405-DE624BF7DD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EFAA47-D858-453B-A405-DE624BF7DD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EFAA47-D858-453B-A405-DE624BF7DD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EFAA47-D858-453B-A405-DE624BF7DD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB90082-5435-4C43-8EF6-811888F89C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB90082-5435-4C43-8EF6-811888F89C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB90082-5435-4C43-8EF6-811888F89C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB90082-5435-4C43-8EF6-811888F89C64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCECB5C5-DFCC-4DF0-914D-83B3877DFC47} = {CE8D1092-0671-4CEB-B62F-C653E86C8D87}
+		{975807EE-4DF3-480D-8DBE-2D8F29264A9E} = {55733061-81E2-46C1-8B40-2F63470C1EA2}
+		{BDD54F11-10F4-49AC-81D1-D9BEB45BE26C} = {46332137-67BE-4D00-9D52-F9BBF919AF1A}
+		{DD2C7FDA-105D-467F-B539-233CC30BDB47} = {DE349CD8-5A02-44EA-BB49-EF26493DD6B7}
+		{F5EFAA47-D858-453B-A405-DE624BF7DD01} = {D76E645C-43A9-44E2-8BB4-7C5183B3E8FB}
+		{5FB90082-5435-4C43-8EF6-811888F89C64} = {436B372B-EA0D-42F5-AFFA-2F02E273A047}
+	EndGlobalSection
+EndGlobal

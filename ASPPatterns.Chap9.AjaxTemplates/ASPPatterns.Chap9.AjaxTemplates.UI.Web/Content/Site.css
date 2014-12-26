@@ -1,0 +1,34 @@
+﻿
+#overlay		 
+{
+    background: #ccc url(/content/ajax-loader.gif) no-repeat 50% 150px; 
+    display: none; 
+    position: absolute; 
+    text-align: center;         
+    z-index:1;     
+    border:1px dashed #CCC;
+    }
+
+#products
+{
+    border:1px dashed #CCC;
+    height: 300px;
+    }
+
+#wrap{	
+	width:770px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#main-content{
+	width:400px;
+    float:left;	
+	margin-left:185px;
+}
+
+#sub-content{
+	width:175px;
+	float:left;
+	margin-left:-585px;
+}

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.PaymentServiceBase">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>PaymentServiceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.PayPalPayment">
+    <Position X="1.75" Y="2.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAQAAAAAAAA=</HashCode>
+      <FileName>PayPalPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.WorldPayPayment">
+    <Position X="4.25" Y="2.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAACAA=</HashCode>
+      <FileName>WorldPayPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.MockPayPalWebService">
+    <Position X="1.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MockPayPalWebService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.MockWorldPayWebService">
+    <Position X="4" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MockWorldPayWebService.cs</FileName>
+      <NewMemberFileName>MOckWorldPayWebService.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.RefundRequest">
+    <Position X="7" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>RefundRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.RefundResponse">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>RefundResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.RefundService">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>RefundService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.PaymentServiceFactory">
+    <Position X="9" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaymentServiceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ASPPatterns.Chap5.LiskovSubstitutionPrinciple.PaymentType">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PaymentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

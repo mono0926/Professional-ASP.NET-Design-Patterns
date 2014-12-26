@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASPPatterns.Chap5.StrategyPattern.Model.Basket">
+    <Position X="1.5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Basket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_basketDiscount" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.StrategyPattern.Model.NoBasketDiscount" Collapsed="true">
+    <Position X="5.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>NoBasketDiscount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPPatterns.Chap5.StrategyPattern.Model.BasketDiscountMoneyOff" Collapsed="true">
+    <Position X="5.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>BasketDiscountMoneyOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPPatterns.Chap5.StrategyPattern.Model.BasketDiscountPercentageOff" Collapsed="true">
+    <Position X="5.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>BasketDiscountPercentageOff.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPPatterns.Chap5.StrategyPattern.Model.BasketDiscountFactory">
+    <Position X="1.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BasketDiscountFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ASPPatterns.Chap5.StrategyPattern.Model.IBasketDiscountStrategy">
+    <Position X="5.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>IBasketDiscountStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ASPPatterns.Chap5.StrategyPattern.Model.DiscountType">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAA=</HashCode>
+      <FileName>DiscountType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

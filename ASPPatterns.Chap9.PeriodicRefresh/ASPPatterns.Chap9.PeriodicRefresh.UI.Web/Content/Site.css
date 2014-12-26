@@ -1,0 +1,55 @@
+﻿.Loading		 
+{
+    background: #CCC;     
+    text-align: center;        
+    display: none;  
+    position : absolute; 
+    z-index:1;       
+    font-family : verdana,helvetica,arial,sans-serif;
+    font-size : 13px;  
+}
+
+#Paused
+{
+    background: #FFFF00;
+    display: none;  
+    font-weight : bold; 
+    font-family : verdana,helvetica,arial,sans-serif;
+    font-size : 13px;
+    text-align: center;     
+}
+
+.LoadingBlock
+{
+    background: #CCC;    
+    display: none;   
+}
+
+p
+{
+   font-family : verdana,helvetica,arial,sans-serif;
+   font-size : 13px;
+}
+
+.EventItem
+{   
+   line-height:1.3em;  
+   font-family : verdana,helvetica,arial,sans-serif;
+   font-size : 13px;
+}
+
+   
+#Events
+{            
+    width: 500px;         
+}   
+
+#wrap{	
+	width:500px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#main-content{	
+    float:left;		
+}

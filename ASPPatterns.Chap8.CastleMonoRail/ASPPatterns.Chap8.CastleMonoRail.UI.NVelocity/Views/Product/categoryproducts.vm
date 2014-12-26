@@ -1,0 +1,2 @@
+﻿<h2>All $category.Name</h2>
+#parse("Shared/products.vm")

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASPPatterns.Chap4.DomainModel.Model.BankAccount">
+    <Position X="0.75" Y="1.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_transactions" Type="ASPPatterns.Chap4.DomainModel.Model.Transaction">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.266" Y="0.175" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAQAAAAAAAAhAAAIAAQgAAAQAACAAAAACAAI=</HashCode>
+      <FileName>BankAccount.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_transactions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ASPPatterns.Chap4.DomainModel.Model.Transaction">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAI=</HashCode>
+      <FileName>Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

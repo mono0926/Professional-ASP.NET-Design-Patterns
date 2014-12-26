@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.QueryObject.Model", "ASPPatterns.Chap7.QueryObject.Model\ASPPatterns.Chap7.QueryObject.Model.csproj", "{CE2B75BB-24C3-4ED3-9613-3915A4E16D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.QueryObject.Repository", "ASPPatterns.Chap7.QueryObject.Repository\ASPPatterns.Chap7.QueryObject.Repository.csproj", "{00B1B174-9F8A-4F4A-B07C-B8ABF5932739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.QueryObject.Infrastructure", "ASPPatterns.Chap7.QueryObject.Infrastructure\ASPPatterns.Chap7.QueryObject.Infrastructure.csproj", "{64FA34B5-CE90-4A45-850B-28E56D0F7E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.QueryObject.UI.Web", "ASPPatterns.Chap7.QueryObject.UI.Web\ASPPatterns.Chap7.QueryObject.UI.Web.csproj", "{BF071865-867B-4E08-B8E2-F89B76A4AF71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.QueryObject.Tests", "ASPPatterns.Chap7.QueryObject.Tests\ASPPatterns.Chap7.QueryObject.Tests.csproj", "{2B8EF12B-A21A-4DD0-BF2B-6B51C83C7961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{9BB1F533-E33B-4A54-B9F2-0908139C5002}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Moq.dll = Lib\Moq.dll
+		Lib\nunit.framework.dll = Lib\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2063B863-B730-4995-8426-1C25B0999DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE2B75BB-24C3-4ED3-9613-3915A4E16D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2B75BB-24C3-4ED3-9613-3915A4E16D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2B75BB-24C3-4ED3-9613-3915A4E16D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2B75BB-24C3-4ED3-9613-3915A4E16D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B1B174-9F8A-4F4A-B07C-B8ABF5932739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B1B174-9F8A-4F4A-B07C-B8ABF5932739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B1B174-9F8A-4F4A-B07C-B8ABF5932739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B1B174-9F8A-4F4A-B07C-B8ABF5932739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FA34B5-CE90-4A45-850B-28E56D0F7E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA34B5-CE90-4A45-850B-28E56D0F7E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FA34B5-CE90-4A45-850B-28E56D0F7E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FA34B5-CE90-4A45-850B-28E56D0F7E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF071865-867B-4E08-B8E2-F89B76A4AF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF071865-867B-4E08-B8E2-F89B76A4AF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF071865-867B-4E08-B8E2-F89B76A4AF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF071865-867B-4E08-B8E2-F89B76A4AF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8EF12B-A21A-4DD0-BF2B-6B51C83C7961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8EF12B-A21A-4DD0-BF2B-6B51C83C7961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8EF12B-A21A-4DD0-BF2B-6B51C83C7961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8EF12B-A21A-4DD0-BF2B-6B51C83C7961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B8EF12B-A21A-4DD0-BF2B-6B51C83C7961} = {2063B863-B730-4995-8426-1C25B0999DC8}
+	EndGlobalSection
+EndGlobal

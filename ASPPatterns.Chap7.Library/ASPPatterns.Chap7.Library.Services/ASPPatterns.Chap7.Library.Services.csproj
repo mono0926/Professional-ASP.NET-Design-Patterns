@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48F099D8-35C0-42A1-A892-23B6441F8A86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASPPatterns.Chap7.Library.Services</RootNamespace>
+    <AssemblyName>ASPPatterns.Chap7.Library.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mappers\BookTitleExtensionMethods.cs" />
+    <Compile Include="Messages\FindBookTitlesRequest.cs" />
+    <Compile Include="Messages\FindBookTitlesResponse.cs" />
+    <Compile Include="Mappers\BookExtensionMethods.cs" />
+    <Compile Include="Messages\FindBooksRequest.cs" />
+    <Compile Include="Messages\FindBooksResponse.cs" />
+    <Compile Include="Messages\AddBookTitleRequest.cs" />
+    <Compile Include="Messages\AddBookTitleResponse.cs" />
+    <Compile Include="Messages\FindMemberRequest.cs" />
+    <Compile Include="Messages\FindMembersResponse.cs" />
+    <Compile Include="Messages\AddBookRequest.cs" />
+    <Compile Include="Messages\AddBookResponse.cs" />
+    <Compile Include="Messages\AddMemberRequest.cs" />
+    <Compile Include="Messages\AddMemberResponse.cs" />
+    <Compile Include="LibraryService.cs" />
+    <Compile Include="Messages\LoanBookRequest.cs" />
+    <Compile Include="Messages\LoanBookResponse.cs" />
+    <Compile Include="Mappers\LoanExtensionMethods.cs" />
+    <Compile Include="Mappers\MemberExtensionMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Messages\ResponseBase.cs" />
+    <Compile Include="Messages\ReturnBookRequest.cs" />
+    <Compile Include="Messages\ReturnBookResponse.cs" />
+    <Compile Include="Views\BookTitleView.cs" />
+    <Compile Include="Views\BookView.cs" />
+    <Compile Include="Views\LoanView.cs" />
+    <Compile Include="Views\MemberView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASPPatterns.Chap7.Library.Infrastructure\ASPPatterns.Chap7.Library.Infrastructure.csproj">
+      <Project>{5C97F267-90E3-4970-B639-5C34E1BFE25D}</Project>
+      <Name>ASPPatterns.Chap7.Library.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASPPatterns.Chap7.Library.Model\ASPPatterns.Chap7.Library.Model.csproj">
+      <Project>{EFC1FA98-BAB6-45F6-B8E6-0FB3D0A8422B}</Project>
+      <Name>ASPPatterns.Chap7.Library.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

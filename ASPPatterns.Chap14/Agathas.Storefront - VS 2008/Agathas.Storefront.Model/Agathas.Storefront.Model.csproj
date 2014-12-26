@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agathas.Storefront.Model</RootNamespace>
+    <AssemblyName>Agathas.Storefront.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="AddressBusinessRules.cs" />
+    <Compile Include="Basket\Basket.cs" />
+    <Compile Include="Basket\BasketBusinessRules.cs" />
+    <Compile Include="Basket\BasketItem.cs" />
+    <Compile Include="Basket\BasketItemBusinessRules.cs" />
+    <Compile Include="Basket\BasketItemFactory.cs" />
+    <Compile Include="Basket\IBasketRepository.cs" />
+    <Compile Include="Categories\ICategoryRepository.cs" />
+    <Compile Include="Customers\Customer.cs" />
+    <Compile Include="Customers\CustomerBusinessRules.cs" />
+    <Compile Include="Customers\DeliveryAddress.cs" />
+    <Compile Include="Customers\DeliveryAddressBusinessRules.cs" />
+    <Compile Include="Customers\EmailValidationSpecification.cs" />
+    <Compile Include="Customers\ICustomerRepository.cs" />
+    <Compile Include="Customers\InvalidAddressException.cs" />
+    <Compile Include="Orders\CannotAmendOrderException.cs" />
+    <Compile Include="Orders\Events\OrderSubmittedEvent.cs" />
+    <Compile Include="Orders\IOrderRepository.cs" />
+    <Compile Include="Orders\Order.cs" />
+    <Compile Include="Orders\OrderAlreadyPaidForException.cs" />
+    <Compile Include="Orders\OrderBusinessRules.cs" />
+    <Compile Include="Orders\OrderItem.cs" />
+    <Compile Include="Orders\OrderItemBusinessRules.cs" />
+    <Compile Include="Orders\OrderItemFactory.cs" />
+    <Compile Include="Orders\Payment.cs" />
+    <Compile Include="Orders\PaymentAmountDoesNotEqualOrderTotalException.cs" />
+    <Compile Include="Orders\PaymentBusinessRules.cs" />
+    <Compile Include="Orders\PaymentFactory.cs" />
+    <Compile Include="Orders\States\IOrderState.cs" />
+    <Compile Include="Orders\States\OpenOrderState.cs" />
+    <Compile Include="Orders\States\OrderState.cs" />
+    <Compile Include="Orders\States\OrderStates.cs" />
+    <Compile Include="Orders\States\OrderStatus.cs" />
+    <Compile Include="Orders\States\SubmittedOrderState.cs" />
+    <Compile Include="Products\Brand.cs" />
+    <Compile Include="Categories\Category.cs" />
+    <Compile Include="Products\IProductAttribute.cs" />
+    <Compile Include="Products\IProductRepository.cs" />
+    <Compile Include="Products\IProductTitleRepository.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\ProductColor.cs" />
+    <Compile Include="Products\ProductSize.cs" />
+    <Compile Include="Products\ProductTitle.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shipping\Courier.cs" />
+    <Compile Include="Shipping\DeliveryOption.cs" />
+    <Compile Include="Shipping\IDeliveryOption .cs" />
+    <Compile Include="Shipping\IDeliveryOptionRepository.cs" />
+    <Compile Include="Shipping\NullDeliveryOption.cs" />
+    <Compile Include="Shipping\ShippingService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
+      <Project>{963F04CC-724D-435B-987E-8B92F7741B75}</Project>
+      <Name>Agathas.Storefront.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

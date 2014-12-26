@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.FrontController.Model", "ASPPatterns.Chap8.FrontController.Model\ASPPatterns.Chap8.FrontController.Model.csproj", "{DF02C53B-D6E4-48AC-8235-8E02A533B518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.FrontController.Controller", "ASPPatterns.Chap8.FrontController.Controller\ASPPatterns.Chap8.FrontController.Controller.csproj", "{C04AC482-F6D5-4E0A-B927-CE982D9DE704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.FrontController.UI.Web", "ASPPatterns.Chap8.FrontController.UI.Web\ASPPatterns.Chap8.FrontController.UI.Web.csproj", "{8ED3A337-4566-4320-AA47-F81B5C73CC1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.FrontController.StubRepository", "ASPPatterns.Chap8.FrontController.StubRepository\ASPPatterns.Chap8.FrontController.StubRepository.csproj", "{FA145742-DB7F-4547-BC67-6A7798013371}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{8F65F809-4D05-4DB7-850A-2B9FA45F4EDF}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\StructureMap.dll = Lib\StructureMap.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF02C53B-D6E4-48AC-8235-8E02A533B518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF02C53B-D6E4-48AC-8235-8E02A533B518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF02C53B-D6E4-48AC-8235-8E02A533B518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF02C53B-D6E4-48AC-8235-8E02A533B518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04AC482-F6D5-4E0A-B927-CE982D9DE704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04AC482-F6D5-4E0A-B927-CE982D9DE704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04AC482-F6D5-4E0A-B927-CE982D9DE704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04AC482-F6D5-4E0A-B927-CE982D9DE704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED3A337-4566-4320-AA47-F81B5C73CC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED3A337-4566-4320-AA47-F81B5C73CC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED3A337-4566-4320-AA47-F81B5C73CC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED3A337-4566-4320-AA47-F81B5C73CC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA145742-DB7F-4547-BC67-6A7798013371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA145742-DB7F-4547-BC67-6A7798013371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA145742-DB7F-4547-BC67-6A7798013371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA145742-DB7F-4547-BC67-6A7798013371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

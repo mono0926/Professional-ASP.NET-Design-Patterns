@@ -1,0 +1,10 @@
+﻿
+#foreach($product in $products)
+
+  $product.Name only $product.Price
+  <br />
+  
+  $UrlHelper.Link("more information", "%{controller='Product', action='ProductDetail', querystring='ProductId=$product.Id'}") 
+  <hr />       
+      
+#end

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap2.Service", "ASPPatterns.Chap2.Service\ASPPatterns.Chap2.Service.csproj", "{07D10248-472A-49F9-8D8C-D2E43EB79929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap2.Tests", "ASPPatterns.Chap2.Tests\ASPPatterns.Chap2.Tests.csproj", "{EF58E1C0-030D-40BD-8A3D-0D02E0BDB790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{27B67927-2D59-425E-B943-D4EFB1F825B5}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\nunit.framework.dll = Lib\nunit.framework.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D10248-472A-49F9-8D8C-D2E43EB79929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D10248-472A-49F9-8D8C-D2E43EB79929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D10248-472A-49F9-8D8C-D2E43EB79929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D10248-472A-49F9-8D8C-D2E43EB79929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF58E1C0-030D-40BD-8A3D-0D02E0BDB790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF58E1C0-030D-40BD-8A3D-0D02E0BDB790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF58E1C0-030D-40BD-8A3D-0D02E0BDB790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF58E1C0-030D-40BD-8A3D-0D02E0BDB790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

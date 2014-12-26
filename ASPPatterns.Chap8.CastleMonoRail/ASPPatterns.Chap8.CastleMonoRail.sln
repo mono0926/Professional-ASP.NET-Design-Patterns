@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{2FB8EA33-2420-4BF0-900D-06077EC38BD4}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Castle.Components.Binder.dll = Lib\Castle.Components.Binder.dll
+		Lib\Castle.Components.DictionaryAdapter.dll = Lib\Castle.Components.DictionaryAdapter.dll
+		Lib\Castle.Components.Validator.dll = Lib\Castle.Components.Validator.dll
+		Lib\Castle.Core.dll = Lib\Castle.Core.dll
+		Lib\Castle.MonoRail.Framework.dll = Lib\Castle.MonoRail.Framework.dll
+		Lib\Castle.MonoRail.Framework.Views.NVelocity.dll = Lib\Castle.MonoRail.Framework.Views.NVelocity.dll
+		Lib\NVelocity.dll = Lib\NVelocity.dll
+		Lib\StructureMap.dll = Lib\StructureMap.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.CastleMonoRail.Model", "ASPPatterns.Chap8.CastleMonoRail.Model\ASPPatterns.Chap8.CastleMonoRail.Model.csproj", "{9C75800A-7B5D-4D63-BB66-9E5611DFB3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.CastleMonoRail.StubRepository", "ASPPatterns.Chap8.CastleMonoRail.StubRepository\ASPPatterns.Chap8.CastleMonoRail.StubRepository.csproj", "{0155F1F0-BB9F-4FE1-A5AA-4A0BA6A23272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.CastleMonoRail.Controllers", "ASPPatterns.Chap8.CastleMonoRail.Controllers\ASPPatterns.Chap8.CastleMonoRail.Controllers.csproj", "{DA039228-0A89-430A-812E-8B3FD8602A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.CastleMonoRail.UI.NVelocity", "ASPPatterns.Chap8.CastleMonoRail.UI.NVelocity\ASPPatterns.Chap8.CastleMonoRail.UI.NVelocity.csproj", "{D17820B9-8564-4274-81E2-CFB7987070C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C75800A-7B5D-4D63-BB66-9E5611DFB3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C75800A-7B5D-4D63-BB66-9E5611DFB3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C75800A-7B5D-4D63-BB66-9E5611DFB3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C75800A-7B5D-4D63-BB66-9E5611DFB3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0155F1F0-BB9F-4FE1-A5AA-4A0BA6A23272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0155F1F0-BB9F-4FE1-A5AA-4A0BA6A23272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0155F1F0-BB9F-4FE1-A5AA-4A0BA6A23272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0155F1F0-BB9F-4FE1-A5AA-4A0BA6A23272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA039228-0A89-430A-812E-8B3FD8602A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA039228-0A89-430A-812E-8B3FD8602A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA039228-0A89-430A-812E-8B3FD8602A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA039228-0A89-430A-812E-8B3FD8602A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17820B9-8564-4274-81E2-CFB7987070C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17820B9-8564-4274-81E2-CFB7987070C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17820B9-8564-4274-81E2-CFB7987070C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17820B9-8564-4274-81E2-CFB7987070C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

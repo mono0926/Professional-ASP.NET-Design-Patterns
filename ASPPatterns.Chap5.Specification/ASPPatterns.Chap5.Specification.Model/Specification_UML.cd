@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASPPatterns.Chap5.Specification.Model.AndSpecification&lt;T&gt;">
+    <Position X="8" Y="3" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgEAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>AndSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.Specification.Model.NotSpecification&lt;T&gt;">
+    <Position X="10.5" Y="3" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>NotSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.Specification.Model.CompositeSpecification&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeSpecification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPPatterns.Chap5.Specification.Model.HasReachedRentalThresholdSpecification" Collapsed="true">
+    <Position X="1" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>HasReachedRentalThresholdSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.Specification.Model.CustomerAccountHasLateFeesSpecification" Collapsed="true">
+    <Position X="4.5" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerAccountHasLateFeesSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap5.Specification.Model.CustomerAccountStillActiveSpecification" Collapsed="true">
+    <Position X="2.75" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerAccountStillActiveSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

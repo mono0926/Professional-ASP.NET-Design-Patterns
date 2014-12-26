@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap9.AjaxTemplates.StubRepository", "ASPPatterns.Chap9.AjaxTemplates.StubRepository\ASPPatterns.Chap9.AjaxTemplates.StubRepository.csproj", "{76AEEDC9-2A10-436B-9198-95E006E23CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap9.AjaxTemplates.Model", "ASPPatterns.Chap9.AjaxTemplates.Model\ASPPatterns.Chap9.AjaxTemplates.Model.csproj", "{70CC7833-E598-41CE-A177-A45FEE8D020F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap9.AjaxTemplates.Controllers", "ASPPatterns.Chap9.AjaxTemplates.Controllers\ASPPatterns.Chap9.AjaxTemplates.Controllers.csproj", "{E5D7F3F3-CB33-4DDC-BC11-C38B7F1AD87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap9.AjaxTemplates.UI.Web", "ASPPatterns.Chap9.AjaxTemplates.UI.Web\ASPPatterns.Chap9.AjaxTemplates.UI.Web.csproj", "{B209E668-46D8-4F8F-999E-3F27DA1D0A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76AEEDC9-2A10-436B-9198-95E006E23CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AEEDC9-2A10-436B-9198-95E006E23CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AEEDC9-2A10-436B-9198-95E006E23CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AEEDC9-2A10-436B-9198-95E006E23CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CC7833-E598-41CE-A177-A45FEE8D020F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CC7833-E598-41CE-A177-A45FEE8D020F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CC7833-E598-41CE-A177-A45FEE8D020F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CC7833-E598-41CE-A177-A45FEE8D020F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D7F3F3-CB33-4DDC-BC11-C38B7F1AD87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D7F3F3-CB33-4DDC-BC11-C38B7F1AD87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D7F3F3-CB33-4DDC-BC11-C38B7F1AD87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D7F3F3-CB33-4DDC-BC11-C38B7F1AD87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B209E668-46D8-4F8F-999E-3F27DA1D0A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B209E668-46D8-4F8F-999E-3F27DA1D0A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B209E668-46D8-4F8F-999E-3F27DA1D0A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B209E668-46D8-4F8F-999E-3F27DA1D0A68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

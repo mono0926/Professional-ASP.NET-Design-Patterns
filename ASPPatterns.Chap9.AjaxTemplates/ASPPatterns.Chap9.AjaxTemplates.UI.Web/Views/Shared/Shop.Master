@@ -1,0 +1,26 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Register src="Categories.ascx" tagname="Categories" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <script type="text/javascript" src="/Scripts/jquery-1.3.2.js"></script>     
+    <script type="text/javascript" src="/Scripts/jquery-jtemplates.js"></script>
+    <link href="/Content/Site.css" type="text/css" rel="stylesheet" /> 
+</head>
+<body> 
+    <form id="form1" runat="server">
+<div id="wrap">
+<h1>The DataBinding and History Pattern</h1><hr />
+  <div id="main-content">       
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+  </div> 
+  <div id="sub-content">   
+      <uc1:Categories ID="Categories1" runat="server" />    
+  </div>     
+</div> 
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BEF0A3F-A420-434A-9565-FA7D1CD6A1BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agathas.Storefront.Services</RootNamespace>
+    <AssemblyName>Agathas.Storefront.Services</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=1.0.0.155, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoMapperBootStrapper.cs" />
+    <Compile Include="Implementations\BasketDoesNotExistException.cs" />
+    <Compile Include="Implementations\BasketService.cs" />
+    <Compile Include="Implementations\CustomerInvalidException.cs" />
+    <Compile Include="Implementations\CustomerService.cs" />
+    <Compile Include="Implementations\ProductCatalogService.cs" />
+    <Compile Include="Implementations\ProductSearchRequestQueryGenerator.cs" />
+    <Compile Include="Interfaces\IBasketService.cs" />
+    <Compile Include="Interfaces\ICustomerService.cs" />
+    <Compile Include="Interfaces\IProductCatalogService.cs" />
+    <Compile Include="Mapping\BasketMapper.cs" />
+    <Compile Include="Mapping\CategoryMapper.cs" />
+    <Compile Include="Mapping\CustomerMapper.cs" />
+    <Compile Include="Mapping\DeliveryAddressMapper.cs" />
+    <Compile Include="Mapping\DeliveryOptionMapper.cs" />
+    <Compile Include="Mapping\IProductAttributeMapper.cs" />
+    <Compile Include="Mapping\ProductMapper.cs" />
+    <Compile Include="Mapping\ProductTitleMapper.cs" />
+    <Compile Include="Messaging\CustomerService\CreateCustomerRequest.cs" />
+    <Compile Include="Messaging\CustomerService\CreateCustomerResponse.cs" />
+    <Compile Include="Messaging\CustomerService\DeliveryAddressAddRequest.cs" />
+    <Compile Include="Messaging\CustomerService\DeliveryAddressAddResponse.cs" />
+    <Compile Include="Messaging\CustomerService\DeliveryAddressModifyRequest.cs" />
+    <Compile Include="Messaging\CustomerService\DeliveryAddressModifyResponse.cs" />
+    <Compile Include="Messaging\CustomerService\GetCustomerRequest.cs" />
+    <Compile Include="Messaging\CustomerService\GetCustomerResponse.cs" />
+    <Compile Include="Messaging\CustomerService\ModifyCustomerRequest.cs" />
+    <Compile Include="Messaging\CustomerService\ModifyCustomerResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\CreateBasketRequest.cs" />
+    <Compile Include="Messaging\ProductCatalogService\CreateBasketResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetAllCategoriesResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetAllDispatchOptionsResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetBasketRequest.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetBasketResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetFeaturedProductsResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetProductRequest.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetProductResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetProductsByCategoryRequest.cs" />
+    <Compile Include="Messaging\ProductCatalogService\GetProductsByCategoryResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\ModifyBasketRequest.cs" />
+    <Compile Include="Messaging\ProductCatalogService\ModifyBasketResponse.cs" />
+    <Compile Include="Messaging\ProductCatalogService\ProductQtyUpdateRequest.cs" />
+    <Compile Include="Messaging\ProductCatalogService\ProductsSortBy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BasketItemView.cs" />
+    <Compile Include="ViewModels\BasketView.cs" />
+    <Compile Include="ViewModels\CategoryView.cs" />
+    <Compile Include="ViewModels\CustomerView.cs" />
+    <Compile Include="ViewModels\DeliveryAddressView.cs" />
+    <Compile Include="ViewModels\DeliveryOptionView.cs" />
+    <Compile Include="ViewModels\ProductSizeOption.cs" />
+    <Compile Include="ViewModels\ProductSummaryView.cs" />
+    <Compile Include="ViewModels\ProductView.cs" />
+    <Compile Include="ViewModels\Refinement.cs" />
+    <Compile Include="ViewModels\RefinementGroup.cs" />
+    <Compile Include="ViewModels\RefinementGroupings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
+      <Project>{963F04CC-724D-435B-987E-8B92F7741B75}</Project>
+      <Name>Agathas.Storefront.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agathas.Storefront.Model\Agathas.Storefront.Model.csproj">
+      <Project>{A909922F-F7DA-4EE6-9B36-04E3B3CA1360}</Project>
+      <Name>Agathas.Storefront.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

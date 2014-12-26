@@ -1,0 +1,27 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+</head>
+<body>    
+    <table width="70%">
+        <tr>
+            <td colspan="2">
+                <h2>
+                    <%= Html.ActionLink("Scotts Shop", "Index", "Home") %></h2>
+                <hr />
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" width="15%">
+                <% Html.RenderPartial("~/Views/Shared/Categories.ascx", (IList<ASPPatterns.Chap8.ASPNETMVC.AppService.Views.CategoryView>)ViewData["categories"]); %>
+            </td>
+            <td valign="top" width="85%">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

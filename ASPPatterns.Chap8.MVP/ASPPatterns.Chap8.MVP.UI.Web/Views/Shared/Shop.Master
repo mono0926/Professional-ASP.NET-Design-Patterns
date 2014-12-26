@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Shop.master.cs" Inherits="ASPPatterns.Chap8.MVP.UI.Web.Views.Shared.Shop" %>
+<%@ Register src="~/Views/Shared/CategoryList.ascx" tagname="CategoryList" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       <table width="70%">
+            <tr>
+                <td colspan="3"><h2><a href="/Views/Home/Index.aspx">Scotts Shop</a></h2><hr /></td>
+            </tr>
+            <tr>
+                <td valign="top" width="15%"><uc1:CategoryList ID="CategoryList1" runat="server" />
+                </td>
+                <td valign="top" width="85%"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></td>                
+            </tr>
+        </table>  
+    </div>
+    </form>
+</body>
+</html>

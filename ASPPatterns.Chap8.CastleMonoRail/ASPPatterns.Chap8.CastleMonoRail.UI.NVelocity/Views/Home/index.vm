@@ -1,0 +1,4 @@
+﻿<p>
+  <h2>Todays Top Products</h2>
+  #parse("Shared/products.vm")
+</p>

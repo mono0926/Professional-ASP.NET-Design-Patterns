@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.IoC.Model", "ASPPatterns.Chap8.IoC.Model\ASPPatterns.Chap8.IoC.Model.csproj", "{6E272B81-4509-4AFC-9DE5-578A9FB6BD92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{C8D185E2-A6C8-4404-9075-A830CD5E5482}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\StructureMap.dll = Lib\StructureMap.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap8.IoC.UI.Web", "ASPPatterns.Chap8.IoC.UI.Web\ASPPatterns.Chap8.IoC.UI.Web.csproj", "{7BCB1858-6C85-4122-B19D-6BEE605831A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E272B81-4509-4AFC-9DE5-578A9FB6BD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E272B81-4509-4AFC-9DE5-578A9FB6BD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E272B81-4509-4AFC-9DE5-578A9FB6BD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E272B81-4509-4AFC-9DE5-578A9FB6BD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCB1858-6C85-4122-B19D-6BEE605831A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCB1858-6C85-4122-B19D-6BEE605831A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCB1858-6C85-4122-B19D-6BEE605831A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCB1858-6C85-4122-B19D-6BEE605831A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

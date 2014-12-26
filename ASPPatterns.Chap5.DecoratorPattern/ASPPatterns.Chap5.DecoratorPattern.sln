@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.chap5.DecoratorPattern.Model", "ASPPatterns.chap5.DecoratorPattern.Model\ASPPatterns.chap5.DecoratorPattern.Model.csproj", "{D0D3DAC4-1889-4D3D-A717-AC86E9D1DC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.chap5.DecoratorPattern.Tests", "ASPPatterns.chap5.DecoratorPattern.Tests\ASPPatterns.chap5.DecoratorPattern.Tests.csproj", "{B6500491-D6B3-4936-A7A7-2448030871F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0AD3A62D-7BE3-492E-8F3C-5B088B0F8134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{223C65BB-6517-4599-83E5-43F797417DAD}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Machine.Specifications.dll = lib\Machine.Specifications.dll
+		lib\Machine.Specifications.NUnit.dll = lib\Machine.Specifications.NUnit.dll
+		lib\nunit.framework.dll = lib\nunit.framework.dll
+		lib\TestDriven.Framework.dll = lib\TestDriven.Framework.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.chap5.DecoratorPattern.Specifications", "ASPPatterns.chap5.DecoratorPattern.Specifications\ASPPatterns.chap5.DecoratorPattern.Specifications.csproj", "{220E0C70-563C-4734-AD55-E4296F4046E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0D3DAC4-1889-4D3D-A717-AC86E9D1DC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D3DAC4-1889-4D3D-A717-AC86E9D1DC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D3DAC4-1889-4D3D-A717-AC86E9D1DC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D3DAC4-1889-4D3D-A717-AC86E9D1DC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6500491-D6B3-4936-A7A7-2448030871F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6500491-D6B3-4936-A7A7-2448030871F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6500491-D6B3-4936-A7A7-2448030871F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6500491-D6B3-4936-A7A7-2448030871F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220E0C70-563C-4734-AD55-E4296F4046E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220E0C70-563C-4734-AD55-E4296F4046E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220E0C70-563C-4734-AD55-E4296F4046E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220E0C70-563C-4734-AD55-E4296F4046E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6500491-D6B3-4936-A7A7-2448030871F6} = {0AD3A62D-7BE3-492E-8F3C-5B088B0F8134}
+		{220E0C70-563C-4734-AD55-E4296F4046E4} = {0AD3A62D-7BE3-492E-8F3C-5B088B0F8134}
+	EndGlobalSection
+EndGlobal

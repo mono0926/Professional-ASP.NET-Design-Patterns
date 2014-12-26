@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.Library.Model", "ASPPatterns.Chap7.Library.Model\ASPPatterns.Chap7.Library.Model.csproj", "{EFC1FA98-BAB6-45F6-B8E6-0FB3D0A8422B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.Library.Repository.EF", "ASPPatterns.Chap7.Library.Repository.EF\ASPPatterns.Chap7.Library.Repository.EF.csproj", "{75E0A50D-090D-48C6-9A81-2AE702C7C197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.Library.Repository.NHibernate", "ASPPatterns.Chap7.Library.Repository.NHibernate\ASPPatterns.Chap7.Library.Repository.NHibernate.csproj", "{EF80E679-2FEB-4568-834B-70D838FB3E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.Library.UI.Web", "ASPPatterns.Chap7.Library.UI.Web\ASPPatterns.Chap7.Library.UI.Web.csproj", "{1E60ED41-9734-497A-B636-7A6F7D4FB01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.Library.Infrastructure", "ASPPatterns.Chap7.Library.Infrastructure\ASPPatterns.Chap7.Library.Infrastructure.csproj", "{5C97F267-90E3-4970-B639-5C34E1BFE25D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.Library.Services", "ASPPatterns.Chap7.Library.Services\ASPPatterns.Chap7.Library.Services.csproj", "{48F099D8-35C0-42A1-A892-23B6441F8A86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A318107E-50B3-43C7-95E5-65EA2822EF04}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Iesi.Collections.dll = lib\Iesi.Collections.dll
+		lib\LinFu.DynamicProxy.dll = lib\LinFu.DynamicProxy.dll
+		lib\log4net.dll = lib\log4net.dll
+		lib\NHibernate.ByteCode.LinFu.dll = lib\NHibernate.ByteCode.LinFu.dll
+		lib\NHibernate.dll = lib\NHibernate.dll
+		lib\nunit.framework.dll = lib\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.Library.Repository.ADO", "ASPPatterns.Chap7.Library.Repository.ADO\ASPPatterns.Chap7.Library.Repository.ADO.csproj", "{900509B3-99BB-4C29-B377-E1D6DC914B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC1FA98-BAB6-45F6-B8E6-0FB3D0A8422B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC1FA98-BAB6-45F6-B8E6-0FB3D0A8422B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC1FA98-BAB6-45F6-B8E6-0FB3D0A8422B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC1FA98-BAB6-45F6-B8E6-0FB3D0A8422B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E0A50D-090D-48C6-9A81-2AE702C7C197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E0A50D-090D-48C6-9A81-2AE702C7C197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E0A50D-090D-48C6-9A81-2AE702C7C197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E0A50D-090D-48C6-9A81-2AE702C7C197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF80E679-2FEB-4568-834B-70D838FB3E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF80E679-2FEB-4568-834B-70D838FB3E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF80E679-2FEB-4568-834B-70D838FB3E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF80E679-2FEB-4568-834B-70D838FB3E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E60ED41-9734-497A-B636-7A6F7D4FB01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E60ED41-9734-497A-B636-7A6F7D4FB01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E60ED41-9734-497A-B636-7A6F7D4FB01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E60ED41-9734-497A-B636-7A6F7D4FB01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C97F267-90E3-4970-B639-5C34E1BFE25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C97F267-90E3-4970-B639-5C34E1BFE25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C97F267-90E3-4970-B639-5C34E1BFE25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C97F267-90E3-4970-B639-5C34E1BFE25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F099D8-35C0-42A1-A892-23B6441F8A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F099D8-35C0-42A1-A892-23B6441F8A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F099D8-35C0-42A1-A892-23B6441F8A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F099D8-35C0-42A1-A892-23B6441F8A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900509B3-99BB-4C29-B377-E1D6DC914B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900509B3-99BB-4C29-B377-E1D6DC914B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900509B3-99BB-4C29-B377-E1D6DC914B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900509B3-99BB-4C29-B377-E1D6DC914B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASPPatterns.Chap7.QueryObject.Infrastructure.Query.Query">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIEAAACABAAARAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\Query.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="QueryOperator" />
+      <Property Name="OrderByProperty" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Criteria" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ASPPatterns.Chap7.QueryObject.Infrastructure.Query.Criterion">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>Query\Criterion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="criteriaOperator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASPPatterns.Chap7.QueryObject.Infrastructure.Query.OrderByClause">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAA=</HashCode>
+      <FileName>Query\OrderByClause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASPPatterns.Chap7.QueryObject.Infrastructure.Query.NamedQueryFactory">
+    <Position X="1.75" Y="4.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\NamedQueryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ASPPatterns.Chap7.QueryObject.Infrastructure.Query.CriteriaOperator">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Query\CriteriaOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ASPPatterns.Chap7.QueryObject.Infrastructure.Query.QueryOperator">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Query\QueryOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

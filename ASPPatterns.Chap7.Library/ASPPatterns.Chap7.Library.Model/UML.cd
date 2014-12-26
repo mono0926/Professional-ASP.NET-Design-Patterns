@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASPPatterns.Chap7.Library.Model.Loan">
+    <Position X="9" Y="4.25" Width="1.75" />
+    <AssociationLine Name="Book" Type="ASPPatterns.Chap7.Library.Model.Book" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.875" Y="4.25" />
+        <Point X="9.875" Y="3.312" />
+        <Point X="7.75" Y="3.312" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.704" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Member" Type="ASPPatterns.Chap7.Library.Model.Member">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.412" Y="0.123" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAACCAAAAAAAAABAAAAAAACAQgAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Loan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Book" />
+      <Property Name="Member" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ASPPatterns.Chap7.Library.Model.Member">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <AssociationLine Name="Loans" Type="ASPPatterns.Chap7.Library.Model.Loan">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.6" Y="0.175" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAkAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAg=</HashCode>
+      <FileName>Member.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Loans" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPPatterns.Chap7.Library.Model.Book">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <AssociationLine Name="Title" Type="ASPPatterns.Chap7.Library.Model.BookTitle">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.223" Y="0.216" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="OnLoanTo" Type="ASPPatterns.Chap7.Library.Model.Member">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.336" Y="0.579" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Book.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Title" />
+      <Property Name="OnLoanTo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ASPPatterns.Chap7.Library.Model.BookTitle">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BookTitle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{96126FE8-1421-4A24-B040-DAE2C954BA06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{FB63772A-3E9F-4184-B34B-4B62CBBD02A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.Contracts", "ASPPatterns.Chap6.EventTickets.Contracts\ASPPatterns.Chap6.EventTickets.Contracts.csproj", "{D761AF38-992F-4817-8F44-A0AAD68F5C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.DataContract", "ASPPatterns.Chap6.EventTickets.DataContract\ASPPatterns.Chap6.EventTickets.DataContract.csproj", "{C9F14EC0-406B-4F5F-B6CD-80E4E37994DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.HTTPHost", "ASPPatterns.Chap6.EventTickets.HTTPHost\ASPPatterns.Chap6.EventTickets.HTTPHost.csproj", "{C8EE5145-9D15-4DB5-8751-4352E52E6119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.ServiceProxy", "ASPPatterns.Chap6.EventTickets.ServiceProxy\ASPPatterns.Chap6.EventTickets.ServiceProxy.csproj", "{11195D46-8F68-4502-A8A3-E7FFD6FE1C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.Model", "ASPPatterns.Chap6.EventTickets.Model\ASPPatterns.Chap6.EventTickets.Model.csproj", "{EBAF8B43-ADCE-48D8-AB58-69D02098F8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.Repository", "ASPPatterns.Chap6.EventTickets.Repository\ASPPatterns.Chap6.EventTickets.Repository.csproj", "{ACCF7A52-2CCE-46CB-B2F3-27B767A89EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.WebShop", "ASPPatterns.Chap6.EventTickets.WebShop\ASPPatterns.Chap6.EventTickets.WebShop.csproj", "{67FC4267-873A-4D10-95C9-A4EAB78D2A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap6.EventTickets.Service", "ASPPatterns.Chap6.EventTickets.Service\ASPPatterns.Chap6.EventTickets.Service.csproj", "{02AAA437-700E-476E-9E25-D99F97C03659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D761AF38-992F-4817-8F44-A0AAD68F5C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D761AF38-992F-4817-8F44-A0AAD68F5C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D761AF38-992F-4817-8F44-A0AAD68F5C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D761AF38-992F-4817-8F44-A0AAD68F5C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F14EC0-406B-4F5F-B6CD-80E4E37994DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F14EC0-406B-4F5F-B6CD-80E4E37994DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F14EC0-406B-4F5F-B6CD-80E4E37994DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F14EC0-406B-4F5F-B6CD-80E4E37994DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EE5145-9D15-4DB5-8751-4352E52E6119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EE5145-9D15-4DB5-8751-4352E52E6119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EE5145-9D15-4DB5-8751-4352E52E6119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EE5145-9D15-4DB5-8751-4352E52E6119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11195D46-8F68-4502-A8A3-E7FFD6FE1C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11195D46-8F68-4502-A8A3-E7FFD6FE1C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11195D46-8F68-4502-A8A3-E7FFD6FE1C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11195D46-8F68-4502-A8A3-E7FFD6FE1C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAF8B43-ADCE-48D8-AB58-69D02098F8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAF8B43-ADCE-48D8-AB58-69D02098F8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAF8B43-ADCE-48D8-AB58-69D02098F8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAF8B43-ADCE-48D8-AB58-69D02098F8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCF7A52-2CCE-46CB-B2F3-27B767A89EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCF7A52-2CCE-46CB-B2F3-27B767A89EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCF7A52-2CCE-46CB-B2F3-27B767A89EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCF7A52-2CCE-46CB-B2F3-27B767A89EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FC4267-873A-4D10-95C9-A4EAB78D2A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FC4267-873A-4D10-95C9-A4EAB78D2A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FC4267-873A-4D10-95C9-A4EAB78D2A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FC4267-873A-4D10-95C9-A4EAB78D2A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AAA437-700E-476E-9E25-D99F97C03659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AAA437-700E-476E-9E25-D99F97C03659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AAA437-700E-476E-9E25-D99F97C03659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AAA437-700E-476E-9E25-D99F97C03659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D761AF38-992F-4817-8F44-A0AAD68F5C61} = {96126FE8-1421-4A24-B040-DAE2C954BA06}
+		{C9F14EC0-406B-4F5F-B6CD-80E4E37994DB} = {96126FE8-1421-4A24-B040-DAE2C954BA06}
+		{C8EE5145-9D15-4DB5-8751-4352E52E6119} = {96126FE8-1421-4A24-B040-DAE2C954BA06}
+		{EBAF8B43-ADCE-48D8-AB58-69D02098F8C3} = {96126FE8-1421-4A24-B040-DAE2C954BA06}
+		{ACCF7A52-2CCE-46CB-B2F3-27B767A89EE4} = {96126FE8-1421-4A24-B040-DAE2C954BA06}
+		{02AAA437-700E-476E-9E25-D99F97C03659} = {96126FE8-1421-4A24-B040-DAE2C954BA06}
+		{11195D46-8F68-4502-A8A3-E7FFD6FE1C16} = {FB63772A-3E9F-4184-B34B-4B62CBBD02A0}
+		{67FC4267-873A-4D10-95C9-A4EAB78D2A37} = {FB63772A-3E9F-4184-B34B-4B62CBBD02A0}
+	EndGlobalSection
+EndGlobal

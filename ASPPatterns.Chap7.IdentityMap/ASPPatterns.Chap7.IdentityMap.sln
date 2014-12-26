@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.IdentityMap.Model", "ASPPatterns.Chap7.IdentityMap.Model\ASPPatterns.Chap7.IdentityMap.Model.csproj", "{6EDAC3F7-BE80-450E-81E4-8704B9203248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.IdentityMap.Repository", "ASPPatterns.Chap7.IdentityMap.Repository\ASPPatterns.Chap7.IdentityMap.Repository.csproj", "{9C4C22FF-DADD-47D6-9BEB-345F6E2F0EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPPatterns.Chap7.IdentityMap.Tests", "ASPPatterns.Chap7.IdentityMap.Tests\ASPPatterns.Chap7.IdentityMap.Tests.csproj", "{1E96CE3F-4F1B-40D7-B859-517304378D58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{33A1F59D-1B7D-4FB3-AFC9-2D6954D9B7CF}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\nunit.framework.dll = Lib\nunit.framework.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EDAC3F7-BE80-450E-81E4-8704B9203248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDAC3F7-BE80-450E-81E4-8704B9203248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDAC3F7-BE80-450E-81E4-8704B9203248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDAC3F7-BE80-450E-81E4-8704B9203248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4C22FF-DADD-47D6-9BEB-345F6E2F0EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4C22FF-DADD-47D6-9BEB-345F6E2F0EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4C22FF-DADD-47D6-9BEB-345F6E2F0EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4C22FF-DADD-47D6-9BEB-345F6E2F0EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E96CE3F-4F1B-40D7-B859-517304378D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E96CE3F-4F1B-40D7-B859-517304378D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E96CE3F-4F1B-40D7-B859-517304378D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E96CE3F-4F1B-40D7-B859-517304378D58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
